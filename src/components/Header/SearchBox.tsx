@@ -13,7 +13,7 @@ export default function SearchBox() {
       alignSelf="center"
       color="gray.200"
       position="relative"
-      bg="gray.800"
+      bg="gray.50"
       borderRadius="full"
     >
       <Input
@@ -24,7 +24,7 @@ export default function SearchBox() {
         placeholder="Buscar na plataforma"
         _placeholder={{ color: 'gray.400'}}
       />
-      <Icon as={RiSearchLine} fontSize="20"/>
+      <Icon as={RiSearchLine} fontSize="20" color="gray.400"/>
     </Flex>
   )
 }

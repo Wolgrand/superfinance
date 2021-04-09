@@ -15,7 +15,7 @@ export default function PaginationItem({isCurrent = false, number}:PaginationIte
           colorScheme="pink"
           disabled
           _disabled={{
-            bg:'pink.500',
+            bg:'green.500',
             cursor:
             'default',
           }}
@@ -30,7 +30,7 @@ export default function PaginationItem({isCurrent = false, number}:PaginationIte
         size="sm"
         fontSize="xs"
         width="4"
-        bg="gray.700"
+        bg="gray.300"
         _hover={{
           bg: 'gray.500'
         }}
